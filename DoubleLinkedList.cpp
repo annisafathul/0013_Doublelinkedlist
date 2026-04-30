@@ -116,7 +116,9 @@ class DoubleLinkedList
         {
             current->prev->next = current->next;
 
-
+            if (current->next != NULL)
+                current->next->prev = current->prev;
+           
         }
 
 
