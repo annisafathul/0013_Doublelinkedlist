@@ -64,7 +64,8 @@ class DoubleLinkedList
             return;
         }
 
-
+        newNode->next = current->next; 
+        newNode->prev = current;  
     }
 
 
