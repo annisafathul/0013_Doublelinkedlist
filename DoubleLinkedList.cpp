@@ -40,6 +40,9 @@ class DoubleLinkedList
                 return;
             }
 
+            newNode->next = START;
+
+
         }
 
 
