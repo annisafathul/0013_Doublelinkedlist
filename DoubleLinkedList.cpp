@@ -47,6 +47,8 @@ class DoubleLinkedList
             
             newNode->prev = NULL;
 
+            START = newNode;
+            return;
 
         }
 
